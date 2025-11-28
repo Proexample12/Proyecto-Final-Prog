@@ -75,8 +75,10 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.groupBox1.Controls.Add(this.lstOrdenado);
             this.groupBox1.Controls.Add(this.lstDatos);
+            this.groupBox1.ForeColor = System.Drawing.SystemColors.InfoText;
             this.groupBox1.Location = new System.Drawing.Point(79, 152);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(558, 397);
@@ -179,7 +181,7 @@
             this.cbOrdenamiento.Items.AddRange(new object[] {
             "Insertion Sort",
             "Quick Sort"});
-            this.cbOrdenamiento.Location = new System.Drawing.Point(529, 68);
+            this.cbOrdenamiento.Location = new System.Drawing.Point(537, 66);
             this.cbOrdenamiento.Name = "cbOrdenamiento";
             this.cbOrdenamiento.Size = new System.Drawing.Size(121, 24);
             this.cbOrdenamiento.TabIndex = 13;
@@ -261,6 +263,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Info;
             this.ClientSize = new System.Drawing.Size(682, 734);
             this.Controls.Add(this.lblTiempoBuscar);
             this.Controls.Add(this.lblResultado);
@@ -282,6 +285,7 @@
             this.Controls.Add(this.lblTiempoIni);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btnOrdenar);
+            this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Name = "Form1";
             this.Text = "Ordenamiento de Burbuja";
             this.Load += new System.EventHandler(this.Form1_Load);

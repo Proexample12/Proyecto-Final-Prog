@@ -45,7 +45,7 @@ namespace AnalisisProg
             swLista.Start();
 
             for (long i = 0; i < tamaño; i++)
-                datos.Add(rdn.Next(1, 1000000));
+                datos.Add(rdn.Next(100, 500));
 
             swLista.Stop();
 
