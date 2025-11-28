@@ -178,7 +178,12 @@ namespace AnalisisProg
             }
             return -1;
         }
-
+        /// <summary>
+        /// xd
+        /// </summary>
+        /// <param name="arr"></param>
+        /// <param name="objetivo"></param>
+        /// <returns></returns>
 
 
         public int BusquedaLineal(List<int> arr, int objetivo)
