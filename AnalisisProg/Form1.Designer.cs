@@ -100,7 +100,7 @@
             // 
             this.lstDatos.FormattingEnabled = true;
             this.lstDatos.ItemHeight = 16;
-            this.lstDatos.Location = new System.Drawing.Point(71, 21);
+            this.lstDatos.Location = new System.Drawing.Point(74, 21);
             this.lstDatos.Name = "lstDatos";
             this.lstDatos.Size = new System.Drawing.Size(124, 372);
             this.lstDatos.TabIndex = 0;
@@ -197,6 +197,7 @@
             // 
             // txtBuscar
             // 
+            this.txtBuscar.AccessibleRole = System.Windows.Forms.AccessibleRole.Window;
             this.txtBuscar.Location = new System.Drawing.Point(445, 577);
             this.txtBuscar.Name = "txtBuscar";
             this.txtBuscar.Size = new System.Drawing.Size(163, 22);
